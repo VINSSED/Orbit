@@ -239,8 +239,6 @@ q.Header.Set("pragma", "o-cache")
 q.Header.Set("upgrade-insecure-requests", "1")
   q.Header.Set("proxy", "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=anonymous")
           q.Header.Set("client-control", "max-age=43200, s-max-age=43200")
-          q.Header.Set("cookie", "datr=eQYYZRLO-RleZUiNS7J4uZgD;sb=4QYYZRp2Rcdhm-viD_ooYRNn;m_pixel_ratio=2;fr=0LlrnDqmCfr1bbrrh.AWVZwUqGkewDIYFy0pYKAV5wT6U.BlGAZ5.N_.AAA.0.0.BlGAbp.AWUbwRqnMVE;c_user=100094274989538;xs=20%3AeMFcrXgY38D3Vg%3A2%3A1696073451%3A-1%3A-1;m_page_voice=100094274989538;wd=360x672;x-referer=eyJyIjoiL2hvbWUucGhwP3BhaXB2PTAmZWF2PUFmYkF1YlJ0Vl8tQmNycHBFRzEzbGU4TFZ0bWIxU21HMm5NNTc3bEdoYWlZZ0VmYzBTN3NmNXZJMVF0NU05bncwV00iLCJoIjoiL2hvbWUucGhwP3BhaXB2PTAmZWF2PUFmYkF1YlJ0Vl8tQmNycHBFRzEzbGU4TFZ0bWIxU21HMm5NNTc3bEdoYWlZZ0VmYzBTN3NmNXZJMVF0NU05bncwV00iLCJzIjoibSJ9;locale=id_ID;fbl_st=100431048%3BT%3A28267891;wl_cbv=v2%3Bclient_version%3A2328%3Btimestamp%3A1696073467;fbl_cs=AhCr%2BgnCs4TLOs0EGftjyuobGFoxeT1uNEhKcFoyVnJZYzIyZzg1aVpmbg;fbl_ci=953396782608717;vpd=v1%3B672x360x2;")
-
 		// Overwrite headers with parameters
 
 		for _, element := range headers {
